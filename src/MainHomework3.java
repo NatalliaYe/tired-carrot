@@ -40,6 +40,5 @@ public class MainHomework3 {
         System.out.println(resultFormat);
         System.out.println(newTestString);
         System.out.printf("New information:"+ thisMyInput);
-
     }
 }

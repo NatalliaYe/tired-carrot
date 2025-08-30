@@ -4,7 +4,6 @@ public class MainHomework2 {
         short shortNew = 2475;
         int intNew = 215678954;
         long longNew_test = 98765432243556L;
-
         float float_New1 = 2.45f;
         double double_New1 = 1.89;
         char charNew = 'A';
