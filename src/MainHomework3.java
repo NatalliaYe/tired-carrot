@@ -5,6 +5,7 @@ public class MainHomework3 {
         Scanner scanner = new Scanner(System.in);
         String thisMyInput = scanner.nextLine();
 
+
         String s = "Today is Friday!";
         char c = s.charAt(3);
         int stringLength = s.length();

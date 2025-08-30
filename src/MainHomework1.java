@@ -13,4 +13,3 @@ public class MainHomework1 {
         System.out.println("Профессия: " + profession);
     }
 }
-
