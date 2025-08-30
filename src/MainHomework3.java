@@ -26,7 +26,6 @@ public class MainHomework3 {
         newTestString.append("I like watching");
         newTestString.append("movies.");
 
-
         System.out.println("Today is Friday!");
         System.out.println(s.charAt(3));
         System.out.println(s.length());
