@@ -1,5 +1,3 @@
-
-
 public class MainHomework1 {
     public static void main(String[] args) {
         // Создаем переменные с данными
