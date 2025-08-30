@@ -9,6 +9,7 @@ public class MainHomework2 {
         char charNew = 'A';
         boolean booleanNew = true;
 
+
         System.out.println("byte" + byteNew);
         System.out.println("short" + shortNew);
         System.out.println("int" + intNew);
