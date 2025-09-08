@@ -8,11 +8,11 @@ public class anotherHomework3 {
         int sum = 0;
         if (x >= 0) {
             for (int i = 0; i <= x; i++) {
-                sum += 1;
+                sum += i;
             }
         }else {
-            for (int i = 0; i >= x; i--) {
-                sum += 1;
+            for (int i = x; i < 0; i++) {
+                sum += i;
             }
         }
         System.out.printf("The sum of all numbers from 0 to %d is %d", x, sum );

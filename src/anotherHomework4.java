@@ -14,23 +14,15 @@ public class anotherHomework4 {
             if (scanner.hasNextInt()) {
                 int channelNumber = scanner.nextInt();
 
-                switch (channelNumber) {
-                    case 0:
-                        System.out.println("Программа завершена.");
-                        scanner.close();
-                        return;
-                    case 1:
-                    case 2:
-                    case 3:
-                    case 4:
-                    case 5:
-                        String channelName = channels[channelNumber - 1];
+                if (channelNumber == 0) {
+                    System.out.println("Программа завершена.");
+                    break;
+                } else if (channelNumber >= 1 && channelNumber <= channels.length) {
+                    String channelName = channels[channelNumber - 1];
                     System.out.println("Выбран канал: " + channelName);
                     System.out.println("Введите номер канала еще раз");
-                        break;
-                    default:
-                    System.out.println("Канала с номером " + channelNumber + " не существует.Введите номер канала " +
-                            "еще раз");
+                } else {
+                    System.out.println("Канала с номером " + channelNumber + " не существует.Введите номер канала еще раз.");
                 }
             } else {
                 System.out.println("Ошибка: введите число!");
