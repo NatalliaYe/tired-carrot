@@ -1,5 +1,3 @@
-import javax.swing.*;
-
 public class Main {
     public static void main(String[] args) {
         Commode oldCommode = new Commode();
@@ -14,6 +12,7 @@ public class Main {
         dress.types = "Skirts";
         dress.number = 4;
         oldCommode.putInClothes(dress);
+
 
         Commode newTable = new Commode();
         newTable.material = "MayBeWooden";

@@ -6,7 +6,7 @@ public class Commode {
     double length;
     double square;
     String content;
-    Clothes information;
+    Clothes information = new Clothes();
 
 
     public String getObjectInfo() {
@@ -15,15 +15,22 @@ public class Commode {
                 material, color, height, square);
     }
 
-    public void putInClothes(Clothes newContent) {
-        this.information.types = newContent.types;
+    public  Clothes getInformation (String types, int number) {
+        return information;
+    }
+
+    public double getSquare() {
+        return square;
+    }
+
+    public void putInClothes(@org.jetbrains.annotations.NotNull Clothes newContent) {
+        this.information.types =  newContent.types;
         this.information.number = newContent.number;
     }
 
     public String getContent() {
-        String Content = String.format("Content type: %s\nContent material: %s", content, information.types,
+        return String.format("Content type: %s\nContent number: %s", information.types,
                 information.number);
-        return Content;
     }
 
     public void setCommodeDimensions(double height, double width, double length, double square) {
@@ -33,3 +40,4 @@ public class Commode {
         this.square = 2 * (height * width + length * height + length * width);
     }
 }
+
