@@ -23,7 +23,7 @@ public class Commode {
         return square;
     }
 
-    public void putInClothes(@org.jetbrains.annotations.NotNull Clothes newContent) {
+    public void putInClothes(Clothes newContent) {
         this.information.types =  newContent.types;
         this.information.number = newContent.number;
     }
